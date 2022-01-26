@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Roboto Mono:100']
+    }
+  });
+</script>
+    <style>
+        #space {
+            background-color: #002600;
+        }
+    </style>
+</head>
+
+<body onload="setup()">
+    <canvas id='space'></canvas>
+    <script src="setup.js"></script>
+    <script src="asteroids.js"></script>
+    <script src="bullet.js"></script>
+    <script src="ship.js"></script>
+    <script src="interaction.js"></script>
+    </body>
+
+</html>
